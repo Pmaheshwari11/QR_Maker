@@ -1,0 +1,14 @@
+<%- include("./Partials/header.ejs") %>
+
+
+    <h1>QR Code Generator</h1>
+    
+    <h2>The QR for <%= url %> is generated</h2>
+    <img src="./qr-image.png" alt="QR Code">
+    
+    <a href="./qr-image.png" download="qr-image.png"><button>Download</button></a>
+    <p>To generate another qr code click below</p>
+    <a href="/"><button class="generate-another">Generate Another</button> </a>
+
+
+<%- include("./Partials/footer.ejs") %>

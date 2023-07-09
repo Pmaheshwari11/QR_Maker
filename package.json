@@ -1,0 +1,18 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "This generates qr code for the links as expected from name.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Parth Dudani",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "inquirer": "^9.2.7",
+    "nodemon": "^3.0.1",
+    "qr-image": "^3.2.0"
+  }
+}

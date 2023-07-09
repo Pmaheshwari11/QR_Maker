@@ -1,0 +1,11 @@
+<%- include("./Partials/header.ejs") %>
+
+  <h1>QR Code Generator</h1>
+  <p>Enter the link below to make a qr code for link</p>
+  <p class="note">(Please enter full url for QR to work properly)</p>
+  <form action="/" method="post">
+    <input type="text" name="url" placeholder="Enter link here" autocomplete="off"/>
+    <button type="submit">Generate</button>
+  </form>
+
+<%- include("./Partials/footer.ejs") %>
