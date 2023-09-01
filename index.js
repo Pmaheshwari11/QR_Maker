@@ -25,12 +25,3 @@ app.post("/", function (req, res) {
 app.listen(process.env.PORT || 3000, function (res, req) {
   console.log("Server started at port 3000");
 });
-
-setInterval(() => {
-  axios
-    .get("https://qr-maker.onrender.com/")
-    .then((response) => {
-      console.log("Server Code " + response.status);
-    })
-    .catch((error) => console.log(error));
-}, 600000);
